@@ -1,0 +1,837 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.S. Patent Distribution Analysis - Regional Trends</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+        }
+
+        .analysis-text {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #3498db;
+            margin-bottom: 30px;
+            font-size: 1.05em;
+            color: #2c3e50;
+        }
+
+        .analysis-text p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 2.1em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-change {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .visualization {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .visualization img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .key-findings {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .key-findings h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .key-findings ul {
+            list-style-position: inside;
+            line-height: 1.8;
+        }
+
+        .key-findings li {
+            margin-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        .regional-breakdown {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .region-card {
+            background-color: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .region-card:hover {
+            border-color: #3498db;
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.2);
+        }
+
+        .region-card h3 {
+            color: #3498db;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .region-metric {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.95em;
+        }
+
+        .region-metric:last-child {
+            border-bottom: none;
+        }
+
+        .metric-name {
+            color: #7f8c8d;
+        }
+
+        .metric-value {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .distribution-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .distribution-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 18px 20px;
+            border-left: 5px solid #3498db;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+
+        .distribution-card h4 {
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .distribution-card p {
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 20px;
+            background-color: #ecf0f1;
+            font-size: 0.85em;
+            margin-left: 5px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        .methodology {
+            background-color: #e8f4f8;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .methodology h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .methodology p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .top-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.95em;
+        }
+
+        .top-table th,
+        .top-table td {
+            padding: 8px 10px;
+            border-bottom: 1px solid #ecf0f1;
+            text-align: left;
+        }
+
+        .top-table th {
+            background-color: #f4f6f8;
+            color: #2c3e50;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.8em;
+            padding: 3px 8px;
+            border-radius: 12px;
+            background-color: #ecf0f1;
+            margin-left: 5px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .regional-breakdown {
+                grid-template-columns: 1fr;
+            }
+
+            .distribution-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗺️ U.S. Patent Distribution Analysis</h1>
+            <p>Regional Trends and Innovation Geography (2000–2015)</p>
+        </header>
+
+        <div class="content">
+
+            <!-- Key Statistics -->
+            <div class="section">
+                <h2>📊 Key Metrics (2015, Mapped MSAs)</h2>
+                <p style="color:#555; margin-bottom:10px;">
+                    These summary statistics are based on the Metropolitan Statistical Areas (MSAs) that successfully joined with the CBSA shapefile.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Total Utility Patents</div>
+                        <div class="stat-value">66,097</div>
+                        <div class="stat-change">Across all mapped MSAs in 2015</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Active MSAs</div>
+                        <div class="stat-value">287</div>
+                        <div class="stat-change">MSAs with at least one patent (out of 945 mapped)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Average vs. Median</div>
+                        <div class="stat-value">230 vs 40</div>
+                        <div class="stat-change">Mean and median patents per active MSA – highlights a very skewed distribution</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Top Innovation Hub</div>
+                        <div class="stat-value" style="font-size:1.6em;">San Jose–Sunnyvale–Santa Clara</div>
+                        <div class="stat-change">14,618 patents in 2015 (≈43% of all mapped patents are produced by just the top five MSAs)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Distribution Snapshot -->
+            <div class="section">
+                <h2>📦 How Are Patents Distributed Across MSAs?</h2>
+                <div class="analysis-text">
+                    <p>
+                        The histogram and summary statistics show an extremely <span class="highlight">unequal distribution</span> of patent activity.
+                        A tiny group of superstar metro areas dominate output, while most regions contribute only a small number of patents.
+                        The buckets below use your calculated counts from the 2015 data.
+                    </p>
+
+                    <div class="distribution-grid">
+                        <div class="distribution-card">
+                            <h4>Innovation Giants <span class="pill">9 MSAs</span></h4>
+                            <p>
+                                Only <strong>nine</strong> metro areas produced more than <strong>1,000 patents</strong> each.
+                                These include hubs like Silicon Valley, Seattle, and Minneapolis–St. Paul, which anchor national innovation.
+                            </p>
+                        </div>
+                        <div class="distribution-card">
+                            <h4>Strong Producers <span class="pill">16 MSAs</span></h4>
+                            <p>
+                                Another <strong>16</strong> MSAs fall in the <strong>500–999 patent</strong> range.
+                                These metros have sizable research or industrial bases but remain far behind the very top tier.
+                            </p>
+                        </div>
+                        <div class="distribution-card">
+                            <h4>Mid-Tier Contributors <span class="pill">60 MSAs</span></h4>
+                            <p>
+                                <strong>60</strong> MSAs report between <strong>100 and 499 patents</strong>.
+                                They form a broad “middle class” of innovation – important regionally, but modest at the national scale.
+                            </p>
+                        </div>
+                        <div class="distribution-card">
+                            <h4>Long Tail of Small Producers <span class="pill">202 MSAs</span></h4>
+                            <p>
+                                A large group of <strong>202</strong> MSAs record fewer than <strong>100 patents</strong>.
+                                Many of these metros appear as pale cells on the choropleth map, emphasizing how sparse activity is outside core hubs.
+                            </p>
+                        </div>
+                        <div class="distribution-card">
+                            <h4>Innovation Deserts <span class="pill">658 MSAs</span></h4>
+                            <p>
+                                Finally, <strong>658 mapped MSAs</strong> report <strong>zero patents</strong> in 2015.
+                                This stark contrast with the top hubs underscores how geographically concentrated inventive activity is in the U.S.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Analysis -->
+            <div class="section">
+                <h2>📈 Regional Trends in Patent Distribution</h2>
+
+                <div class="analysis-text">
+                    <p>
+                        The spatial analysis reveals <span class="highlight">strong clustering of innovation</span> along the coasts and in a few
+                        inland technology corridors. Patent-intensive MSAs stand out clearly on the choropleth map while large portions of the
+                        interior have little to no activity.
+                    </p>
+
+                    <p>
+                        <strong>The West region is the clear leader</strong>, generating about <strong>27,699 patents</strong>,
+                        or roughly <strong>42% of all mapped patents</strong> in 2015.
+                        Within this region, <strong>San Jose–Sunnyvale–Santa Clara</strong> alone accounts for 14,618 patents.
+                        When combined with other Bay Area and Pacific Northwest hubs, the West forms a dense technology cluster
+                        centered on information technology, software, and electronics.
+                    </p>
+
+                    <p>
+                        The <span class="highlight">Northeast corridor</span> is the second major innovation belt.
+                        With a bit over <strong>10,000 patents</strong> (about 16% of the total), it includes powerful MSAs such as
+                        Boston–Cambridge and the New York metro area.
+                        These regions benefit from world-class research universities, biomedical firms, and financial and
+                        business-services ecosystems.
+                    </p>
+
+                    <p>
+                        The <strong>Midwest and South</strong> contribute meaningful but smaller shares:
+                        around <strong>13,340 patents</strong> from the Midwest (~20%) and <strong>7,122 patents</strong> from the Southeast (~11%),
+                        with the Southwest adding another <strong>5,282 patents</strong> (~8%).
+                        These regions are anchored by manufacturing and logistics hubs such as Chicago, Detroit, Dallas, and Atlanta,
+                        but most of their MSAs remain in the low-patent buckets.
+                    </p>
+
+                    <p>
+                        Your <span class="highlight">change-over-time (delta) analysis</span> between 2000 and 2015 shows that
+                        <strong>181 MSAs increased</strong> their patent counts while <strong>98 MSAs declined</strong>.
+                        The biggest absolute gains occurred in technology centers like
+                        <strong>San Jose, Seattle, Portland, Minneapolis–St. Paul, Washington, DC, and Dallas</strong>,
+                        confirming that already-strong hubs captured much of the growth.
+                    </p>
+
+                    <p>
+                        Overall, the results highlight a “winner-takes-most” geography:
+                        a handful of metro areas form dense innovation ecosystems with deep talent pools and capital,
+                        while hundreds of other MSAs remain peripheral or entirely absent from the patent landscape.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Regional Breakdown (using your regional_stats numbers) -->
+            <div class="section">
+                <h2>🌎 Regional Breakdown (2015, Mapped Data)</h2>
+                <div class="regional-breakdown">
+                    <div class="region-card">
+                        <h3>West</h3>
+                        <div class="region-metric">
+                            <span class="metric-name">Total Patents</span>
+                            <span class="metric-value">27,699</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Share of Mapped Total</span>
+                            <span class="metric-value">≈41.9%</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Average per MSA</span>
+                            <span class="metric-value">≈188</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Key Hubs</span>
+                            <span class="metric-value">San Jose, San Francisco, Seattle</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Typical Focus</span>
+                            <span class="metric-value">Software, semiconductors, electronics</span>
+                        </div>
+                    </div>
+
+                    <div class="region-card">
+                        <h3>Midwest</h3>
+                        <div class="region-metric">
+                            <span class="metric-name">Total Patents</span>
+                            <span class="metric-value">13,340</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Share of Mapped Total</span>
+                            <span class="metric-value">≈20.2%</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Average per MSA</span>
+                            <span class="metric-value">≈47</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Key Hubs</span>
+                            <span class="metric-value">Chicago, Detroit, Minneapolis–St. Paul</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Typical Focus</span>
+                            <span class="metric-value">Automotive, machinery, industrial tech</span>
+                        </div>
+                    </div>
+
+                    <div class="region-card">
+                        <h3>Northeast</h3>
+                        <div class="region-metric">
+                            <span class="metric-name">Total Patents</span>
+                            <span class="metric-value">10,318</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Share of Mapped Total</span>
+                            <span class="metric-value">≈15.6%</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Average per MSA</span>
+                            <span class="metric-value">≈112</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Key Hubs</span>
+                            <span class="metric-value">Boston–Cambridge, New York, Rochester</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Typical Focus</span>
+                            <span class="metric-value">Biotech, pharma, finance-adjacent tech</span>
+                        </div>
+                    </div>
+
+                    <div class="region-card">
+                        <h3>Southeast</h3>
+                        <div class="region-metric">
+                            <span class="metric-name">Total Patents</span>
+                            <span class="metric-value">7,122</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Share of Mapped Total</span>
+                            <span class="metric-value">≈10.8%</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Average per MSA</span>
+                            <span class="metric-value">≈26</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Key Hubs</span>
+                            <span class="metric-value">Atlanta, Raleigh–Durham, Research Triangle</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Typical Focus</span>
+                            <span class="metric-value">Telecom, medical devices, services</span>
+                        </div>
+                    </div>
+
+                    <div class="region-card">
+                        <h3>Southwest</h3>
+                        <div class="region-metric">
+                            <span class="metric-name">Total Patents</span>
+                            <span class="metric-value">5,282</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Share of Mapped Total</span>
+                            <span class="metric-value">≈8.0%</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Average per MSA</span>
+                            <span class="metric-value">≈44</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Key Hubs</span>
+                            <span class="metric-value">Dallas–Fort Worth, Austin, Houston</span>
+                        </div>
+                        <div class="region-metric">
+                            <span class="metric-name">Typical Focus</span>
+                            <span class="metric-value">Energy, electronics, computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top MSAs table -->
+            <div class="section">
+                <h2>🏙️ Top 10 Metropolitan Areas by Patent Count (2015)</h2>
+                <div class="analysis-text">
+                    <p>
+                        The bar chart in your notebook is complemented here with a compact table. Together they show how a short list of
+                        metros dominates patent production.
+                    </p>
+                    <table class="top-table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Metropolitan Area</th>
+                                <th>Patents</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>San Jose–Sunnyvale–Santa Clara, CA</td>
+                                <td>14,618</td>
+                                <td>Core of Silicon Valley <span class="badge">super hub</span></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Seattle–Tacoma–Bellevue, WA</td>
+                                <td>4,739</td>
+                                <td>Cloud, retail tech, and software</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Minneapolis–St. Paul–Bloomington, MN–WI</td>
+                                <td>3,419</td>
+                                <td>Strong in medical devices and manufacturing</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Dallas–Fort Worth–Arlington, TX</td>
+                                <td>3,026</td>
+                                <td>Telecom, electronics, and logistics</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Philadelphia–Camden–Wilmington, PA–NJ–DE–MD</td>
+                                <td>2,357</td>
+                                <td>Pharma and life-science corridor</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Washington–Arlington–Alexandria, DC–VA–MD–WV</td>
+                                <td>2,310</td>
+                                <td>Defense, communications, and public-sector tech</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Portland–Vancouver–Hillsboro, OR–WA</td>
+                                <td>2,163</td>
+                                <td>Semiconductors and hardware manufacturing</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Rochester, NY</td>
+                                <td>1,217</td>
+                                <td>Optics and imaging legacy cluster</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Albany–Schenectady–Troy, NY</td>
+                                <td>1,090</td>
+                                <td>Nanotech and materials research</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Bremerton–Silverdale, WA</td>
+                                <td>907</td>
+                                <td>Specialized, defense-linked activity</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Key Findings -->
+            <div class="key-findings">
+                <h3>🔍 High-Level Insights</h3>
+                <ul>
+                    <li><strong>Extreme concentration:</strong> the top five MSAs alone account for <strong>over 40% of all mapped patents</strong>, while hundreds of MSAs produce only a handful each.</li>
+                    <li><strong>Coastal strength:</strong> West + Northeast regions together generate <strong>roughly three-fifths</strong> of mapped patents, reflecting deep historical and institutional advantages.</li>
+                    <li><strong>Diverging trajectories:</strong> between 2000 and 2015, <strong>181 MSAs grew</strong> in patent output but <strong>98 declined</strong>, with the largest gains concentrated in technology hubs.</li>
+                    <li><strong>Sectoral specialization:</strong> observable clusters include Silicon Valley (software & chips), Boston (biotech), Detroit-Chicago (manufacturing), and Austin–Seattle (cloud and platforms).</li>
+                    <li><strong>University–industry linkages:</strong> MSAs anchored by major research universities consistently sit in higher patent buckets, underlining the role of academic-industrial collaboration.</li>
+                </ul>
+            </div>
+
+            <!-- Interactive Visualizations -->
+            <div class="section">
+                <h2>📉 Interactive Visualizations (from your notebook)</h2>
+                <p style="color:#555; margin-bottom:10px;">
+                    These links open the Plotly dashboards you exported from the notebook. They allow you to hover, zoom, and explore
+                    individual MSAs and trends.
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 15px; margin: 20px 0;">
+                    <a href="patent_map_interactive.html" style="display: block; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.3s ease;">
+                        <div style="font-size: 2em; margin-bottom: 10px;">🗺️</div>
+                        <div style="font-weight: bold;">Choropleth Map</div>
+                        <div style="font-size: 0.9em; opacity: 0.9;">Spatial distribution of patents across MSAs</div>
+                    </a>
+                    <a href="top_10_msas.html" style="display: block; padding: 20px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.3s ease;">
+                        <div style="font-size: 2em; margin-bottom: 10px;">📊</div>
+                        <div style="font-weight: bold;">Top MSAs</div>
+                        <div style="font-size: 0.9em; opacity: 0.9;">Interactive ranking of leading metropolitan areas</div>
+                    </a>
+                    <a href="regional_analysis.html" style="display: block; padding: 20px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.3s ease;">
+                        <div style="font-size: 2em; margin-bottom: 10px;">🌎</div>
+                        <div style="font-weight: bold;">Regional Comparison</div>
+                        <div style="font-size: 0.9em; opacity: 0.9;">Side-by-side regional statistics</div>
+                    </a>
+                    <a href="national_trends.html" style="display: block; padding: 20px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: transform 0.3s ease;">
+                        <div style="font-size: 2em; margin-bottom: 10px;">📈</div>
+                        <div style="font-weight: bold;">Time Series</div>
+                        <div style="font-size: 0.9em; opacity: 0.9;">National total and average patents, 2000–2015</div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Time-series narrative -->
+            <div class="section">
+                <h2>⏱️ National Trends Over Time (2000–2015)</h2>
+                <div class="analysis-text">
+                    <p>
+                        Your yearly summary table shows that total patent counts across all MSAs increased from <strong>about 80,000</strong>
+                        in 2000 to roughly <strong>135,000</strong> by 2015. The average number of patents per MSA rose from just over
+                        <strong>210</strong> to more than <strong>360</strong>, while the median remained much lower – another sign of a
+                        skewed, hub-dominated distribution.
+                    </p>
+                    <p>
+                        The time-series plot reveals a mild dip in the mid-2000s followed by a <span class="highlight">sharp acceleration
+                        after 2010</span>. This jump coincides with the rapid scale-up of smartphones, cloud computing, and platform-based
+                        business models, which are heavily concentrated in just a few MSAs.
+                    </p>
+                    <p>
+                        Combining the time-series and delta map, we can see that national growth is driven primarily by technology
+                        corridors rather than a broad-based rise across all regions. Many smaller MSAs remain flat or even decline,
+                        suggesting that innovation advantages can be persistent and difficult to replicate.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Methodology -->
+            <div class="methodology">
+                <h3>📋 Methodology (Data & Processing)</h3>
+                <p>
+                    <strong>Data source:</strong> USPTO utility patent counts by U.S. Metropolitan Statistical Area (MSA),
+                    with annual values from 2000–2015. The analysis focuses on the subset of MSAs that could be matched
+                    to Census CBSA shapefiles for mapping.
+                </p>
+                <p>
+                    <strong>Pre-processing:</strong> You cleaned and harmonized names by creating a <code>name_clean</code> field,
+                    merged the patent table with the CBSA geometry, and constructed time-series panels across years.
+                    Missing values were treated conservatively, and MSAs with zero patents were kept in the map to show
+                    “innovation deserts”.
+                </p>
+                <p>
+                    <strong>Analytics:</strong> Using <code>pandas</code> and <code>geopandas</code> you computed descriptive statistics
+                    (mean, median, standard deviation), regional aggregations, and 2000–2015 deltas (absolute and percent change)
+                    for each MSA. Plotly was used for interactive choropleths, ranked bar charts, time-series plots, and
+                    histograms of the patent distribution.
+                </p>
+                <p>
+                    <strong>Limitations:</strong> Patent counts measure inventive output, not commercial success or social impact.
+                    Corporate headquarters and inventor address conventions can bias geographic assignment, and multi-inventor
+                    patents are attributed to a single MSA. Still, the patterns provide a robust picture of where formal,
+                    patent-based innovation is concentrated.
+                </p>
+            </div>
+
+            <!-- Policy & implications -->
+            <div class="section">
+                <h2>💡 Policy and Economic Implications</h2>
+                <div class="analysis-text">
+                    <p>
+                        <strong>Regional development:</strong> The high concentration of patents in a small set of hubs implies that
+                        many regions may struggle to participate in knowledge-intensive growth. Targeted investment in universities,
+                        research parks, and early-stage entrepreneurship could help secondary MSAs move up the distribution.
+                    </p>
+                    <p>
+                        <strong>Talent and capital flows:</strong> Patents cluster where skilled workers and venture capital are dense.
+                        This creates self-reinforcing feedback loops: successful hubs attract more talent and capital, which in turn
+                        generate more patents. Regions outside these hubs may need coordinated strategies focusing on quality of life,
+                        STEM education, and connectivity to larger ecosystems.
+                    </p>
+                    <p>
+                        <strong>Future outlook:</strong> Emerging tech hubs such as Austin, Seattle, and Raleigh–Durham show that
+                        new centers can grow rapidly when universities, industry, and policy align. The challenge is to translate
+                        isolated successes into a more balanced national innovation geography.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Visualization gallery -->
+            <div class="section">
+                <h2>📸 Static Visualization Gallery</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 20px; margin-top: 20px;">
+                    <div class="visualization">
+                        <h4 style="margin-bottom: 15px; color: #2c3e50;">Geographic Distribution Map</h4>
+                        <img src="patent_map_static.png" alt="Patent Distribution Map">
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">
+                            Choropleth visualization of 2015 patent density across U.S. MSAs. Darker colors highlight
+                            the dominant innovation hubs.
+                        </p>
+                    </div>
+                    <div class="visualization">
+                        <h4 style="margin-bottom: 15px; color: #2c3e50;">Change in Patents (2000–2015)</h4>
+                        <img src="patent_delta_maps.png" alt="Delta Analysis">
+                        <p style="margin-top: 10px; color: #7f8c8d; font-size: 0.9em;">
+                            Side-by-side maps showing absolute and percentage change. Many coastal MSAs move sharply upward,
+                            while numerous interior regions remain flat or decline slightly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>U.S. Patent Distribution Analysis Dashboard</strong></p>
+            <p>Data Source: United States Patent and Trademark Office (USPTO)</p>
+            <p>Analysis Period: 2000–2015 | Visualization Date: December 05, 2025</p>
+            <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.8;">
+                Created for Computerization and Visualization Course | Northeastern University
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple fade-in animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>

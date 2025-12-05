@@ -1,0 +1,946 @@
+cbsa_code,NAME,patents,state,region
+31340,"Lynchburg, VA",46.0,VA,Southeast
+42220,"Santa Rosa, CA",0.0,CA,West
+24900,"Greenwood, MS",0.0,MS,Southeast
+46140,"Tulsa, OK",174.0,OK,Southwest
+18260,"Cookeville, TN",0.0,TN,Southeast
+41740,"San Diego-Carlsbad, CA",0.0,CA,West
+36580,"Oneonta, NY",0.0,NY,Northeast
+40460,"Rockingham, NC",0.0,NC,Southeast
+38220,"Pine Bluff, AR",0.0,AR,Southeast
+14500,"Boulder, CO",831.0,CO,West
+25200,"Hailey, ID",0.0,ID,West
+20380,"Dunn, NC",0.0,NC,Southeast
+33180,"Middlesborough, KY",0.0,KY,Southeast
+40940,"Safford, AZ",0.0,AZ,Southwest
+18620,"Corsicana, TX",0.0,TX,Southwest
+21640,"Eufaula, AL-GA",0.0,AL,Southeast
+28620,"Kill Devil Hills, NC",0.0,NC,Southeast
+14220,"Bogalusa, LA",0.0,LA,Southeast
+28860,"Kirksville, MO",0.0,MO,Midwest
+39780,"Red Bluff, CA",0.0,CA,West
+19420,"Dayton, TN",0.0,TN,Southeast
+46460,"Union City, TN-KY",0.0,TN,Southeast
+27380,"Jacksonville, TX",0.0,TX,Southwest
+45520,"The Dalles, OR",0.0,OR,West
+21580,"Española, NM",0.0,NM,Southwest
+39140,"Prescott, AZ",30.0,AZ,Southwest
+17020,"Chico, CA",16.0,CA,West
+43620,"Sioux Falls, SD",42.0,SD,Midwest
+12260,"Augusta-Richmond County, GA-SC",54.0,GA,Southeast
+12660,"Baraboo, WI",0.0,WI,Midwest
+17460,"Cleveland-Elyria, OH",0.0,OH,Midwest
+13980,"Blacksburg-Christiansburg-Radford, VA",84.0,VA,Southeast
+38920,"Port Lavaca, TX",0.0,TX,Southwest
+29340,"Lake Charles, LA",8.0,LA,Southeast
+25220,"Hammond, LA",0.0,LA,Southeast
+13140,"Beaumont-Port Arthur, TX",34.0,TX,Southwest
+36420,"Oklahoma City, OK",155.0,OK,Southwest
+43580,"Sioux City, IA-NE-SD",25.0,IA,Midwest
+17140,"Cincinnati, OH-KY-IN",0.0,OH,Midwest
+28940,"Knoxville, TN",218.0,TN,Southeast
+16740,"Charlotte-Concord-Gastonia, NC-SC",0.0,NC,Southeast
+29100,"La Crosse-Onalaska, WI-MN",0.0,WI,Midwest
+16500,"Centralia, WA",0.0,WA,West
+14260,"Boise City, ID",0.0,ID,West
+11660,"Arkadelphia, AR",0.0,AR,Southeast
+31740,"Manhattan, KS",39.0,KS,Midwest
+36540,"Omaha-Council Bluffs, NE-IA",178.0,NE,Midwest
+47080,"Vidalia, GA",0.0,GA,Southeast
+31260,"Lufkin, TX",0.0,TX,Southwest
+16620,"Charleston, WV",26.0,WV,Southeast
+37580,"Paris, TX",0.0,TX,Southwest
+24220,"Grand Forks, ND-MN",14.0,ND,Midwest
+42700,"Sebring, FL",0.0,FL,Southeast
+27540,"Jasper, IN",0.0,IN,Midwest
+18060,"Columbus, MS",0.0,MS,Southeast
+41900,"San Germán, PR",0.0,PR,Other
+25980,"Hinesville, GA",0.0,GA,Southeast
+26860,"Indiana, PA",0.0,PA,Northeast
+32220,"Marshall, TX",0.0,TX,Southwest
+31420,"Macon-Bibb County, GA",0.0,GA,Southeast
+14780,"Brenham, TX",0.0,TX,Southwest
+22180,"Fayetteville, NC",13.0,NC,Southeast
+36260,"Ogden-Clearfield, UT",197.0,UT,West
+44860,"Sulphur Springs, TX",0.0,TX,Southwest
+34100,"Morristown, TN",16.0,TN,Southeast
+11260,"Anchorage, AK",26.0,AK,West
+24340,"Grand Rapids-Wyoming, MI",217.0,MI,Midwest
+34060,"Morgantown, WV",32.0,WV,Southeast
+18140,"Columbus, OH",445.0,OH,Midwest
+38100,"Picayune, MS",0.0,MS,Southeast
+17380,"Cleveland, MS",0.0,MS,Southeast
+29180,"Lafayette, LA",62.0,LA,Southeast
+30300,"Lewiston, ID-WA",3.0,ID,West
+35380,"New Orleans-Metairie, LA",0.0,LA,Southeast
+22500,"Florence, SC",23.0,SC,Southeast
+36140,"Ocean City, NJ",5.0,NJ,Northeast
+44100,"Springfield, IL",37.0,IL,Midwest
+38660,"Ponce, PR",0.0,PR,Other
+15700,"Cambridge, MD",0.0,MD,Other
+28780,"Kingsville, TX",0.0,TX,Southwest
+46100,"Tullahoma-Manchester, TN",0.0,TN,Southeast
+45180,"Talladega-Sylacauga, AL",0.0,AL,Southeast
+38740,"Poplar Bluff, MO",0.0,MO,Midwest
+39300,"Providence-Warwick, RI-MA",0.0,RI,Northeast
+43760,"Sonora, CA",0.0,CA,West
+34420,"Mount Pleasant, TX",0.0,TX,Southwest
+15780,"Camden, AR",0.0,AR,Southeast
+48620,"Wichita, KS",110.0,KS,Midwest
+47460,"Walla Walla, WA",0.0,WA,West
+24500,"Great Falls, MT",3.0,MT,West
+29260,"La Grande, OR",0.0,OR,West
+42540,"Scranton--Wilkes-Barre--Hazleton, PA",0.0,PA,Northeast
+43060,"Shawnee, OK",0.0,OK,Southwest
+20140,"Dublin, GA",0.0,GA,Southeast
+42660,"Seattle-Tacoma-Bellevue, WA",4739.0,WA,West
+22380,"Flagstaff, AZ",64.0,AZ,Southwest
+34860,"Nacogdoches, TX",0.0,TX,Southwest
+14140,"Bluefield, WV-VA",0.0,WV,Southeast
+20700,"East Stroudsburg, PA",0.0,PA,Northeast
+48780,"Williston, ND",0.0,ND,Midwest
+43340,"Shreveport-Bossier City, LA",30.0,LA,Southeast
+15380,"Buffalo-Cheektowaga-Niagara Falls, NY",0.0,NY,Northeast
+44340,"Statesboro, GA",0.0,GA,Southeast
+31540,"Madison, WI",455.0,WI,Midwest
+11060,"Altus, OK",0.0,OK,Southwest
+12820,"Bastrop, LA",0.0,LA,Southeast
+42820,"Selma, AL",0.0,AL,Southeast
+21340,"El Paso, TX",34.0,TX,Southwest
+37140,"Paducah, KY-IL",0.0,KY,Southeast
+25020,"Guayama, PR",0.0,PR,Other
+43900,"Spartanburg, SC",60.0,SC,Southeast
+43740,"Somerset, PA",0.0,PA,Northeast
+37460,"Panama City, FL",0.0,FL,Southeast
+38420,"Platteville, WI",0.0,WI,Midwest
+21540,"Escanaba, MI",0.0,MI,Midwest
+20540,"Dyersburg, TN",0.0,TN,Southeast
+23860,"Georgetown, SC",0.0,SC,Southeast
+14820,"Brevard, NC",0.0,NC,Southeast
+12680,"Bardstown, KY",0.0,KY,Southeast
+37300,"Palestine, TX",0.0,TX,Southwest
+33100,"Miami-Fort Lauderdale-West Palm Beach, FL",0.0,FL,Southeast
+19100,"Dallas-Fort Worth-Arlington, TX",3026.0,TX,Southwest
+24740,"Greenville, MS",0.0,MS,Southeast
+17900,"Columbia, SC",94.0,SC,Southeast
+46300,"Twin Falls, ID",0.0,ID,West
+40900,"Sacramento--Roseville--Arden-Arcade, CA",0.0,CA,West
+32820,"Memphis, TN-MS-AR",326.0,TN,Southeast
+43180,"Shelbyville, TN",0.0,TN,Southeast
+16420,"Central City, KY",0.0,KY,Southeast
+24060,"Glenwood Springs, CO",0.0,CO,West
+17980,"Columbus, GA-AL",12.0,GA,Southeast
+33860,"Montgomery, AL",17.0,AL,Southeast
+24860,"Greenville-Anderson-Mauldin, SC",0.0,SC,Southeast
+27740,"Johnson City, TN",28.0,TN,Southeast
+21660,"Eugene, OR",0.0,OR,West
+25500,"Harrisonburg, VA",8.0,VA,Southeast
+35100,"New Bern, NC",0.0,NC,Southeast
+19300,"Daphne-Fairhope-Foley, AL",0.0,AL,Southeast
+19260,"Danville, VA",2.0,VA,Southeast
+30880,"Logan, WV",0.0,WV,Southeast
+13220,"Beckley, WV",0.0,WV,Southeast
+11980,"Athens, TX",0.0,TX,Southwest
+47580,"Warner Robins, GA",5.0,GA,Southeast
+44060,"Spokane-Spokane Valley, WA",0.0,WA,West
+40700,"Roseburg, OR",0.0,OR,West
+41620,"Salt Lake City, UT",643.0,UT,West
+21820,"Fairbanks, AK",4.0,AK,West
+22580,"Forest City, NC",0.0,NC,Southeast
+49700,"Yuba City, CA",3.0,CA,West
+41940,"San Jose-Sunnyvale-Santa Clara, CA",14618.0,CA,West
+48180,"Waycross, GA",0.0,GA,Southeast
+21700,"Eureka-Arcata-Fortuna, CA",0.0,CA,West
+22860,"Fort Polk South, LA",0.0,LA,Southeast
+20660,"Easton, MD",0.0,MD,Other
+44940,"Sumter, SC",2.0,SC,Southeast
+36700,"Orangeburg, SC",0.0,SC,Southeast
+30940,"London, KY",0.0,KY,Southeast
+38780,"Portales, NM",0.0,NM,Southwest
+41060,"St. Cloud, MN",21.0,MN,Midwest
+27700,"Jesup, GA",0.0,GA,Southeast
+19000,"Cullowhee, NC",0.0,NC,Southeast
+19760,"DeRidder, LA",0.0,LA,Southeast
+36500,"Olympia-Tumwater, WA",0.0,WA,West
+12100,"Atlantic City-Hammonton, NJ",12.0,NJ,Northeast
+45940,"Trenton, NJ",0.0,NJ,Northeast
+24640,"Greenfield Town, MA",0.0,MA,Northeast
+41980,"San Juan-Carolina-Caguas, PR",0.0,PR,Other
+40220,"Roanoke, VA",98.0,VA,Southeast
+47260,"Virginia Beach-Norfolk-Newport News, VA-NC",143.0,VA,Southeast
+31940,"Marinette, WI-MI",0.0,WI,Midwest
+44140,"Springfield, MA",165.0,MA,Northeast
+25420,"Harrisburg-Carlisle, PA",125.0,PA,Northeast
+38900,"Portland-Vancouver-Hillsboro, OR-WA",2163.0,OR,West
+41180,"St. Louis, MO-IL",779.0,MO,Midwest
+17780,"College Station-Bryan, TX",67.0,TX,Southwest
+19060,"Cumberland, MD-WV",0.0,MD,Other
+12900,"Batesville, AR",0.0,AR,Southeast
+45060,"Syracuse, NY",217.0,NY,Northeast
+41700,"San Antonio-New Braunfels, TX",413.0,TX,Southwest
+35060,"Natchitoches, LA",0.0,LA,Southeast
+10140,"Aberdeen, WA",0.0,WA,West
+23500,"Gaffney, SC",0.0,SC,Southeast
+31020,"Longview, WA",8.0,WA,West
+26260,"Hope, AR",0.0,AR,Southeast
+21060,"Elizabethtown-Fort Knox, KY",0.0,KY,Southeast
+47780,"Washington, IN",0.0,IN,Midwest
+32280,"Martin, TN",0.0,TN,Southeast
+30280,"Lewisburg, TN",0.0,TN,Southeast
+43260,"Sheridan, WY",0.0,WY,West
+14420,"Borger, TX",0.0,TX,Southwest
+39220,"Price, UT",0.0,UT,West
+41820,"Sanford, NC",0.0,NC,Southeast
+37260,"Palatka, FL",0.0,FL,Southeast
+31580,"Madisonville, KY",0.0,KY,Southeast
+22140,"Farmington, NM",5.0,NM,Southwest
+18900,"Crossville, TN",0.0,TN,Southeast
+22660,"Fort Collins, CO",0.0,CO,West
+28420,"Kennewick-Richland, WA",0.0,WA,West
+41780,"Sandusky, OH",9.0,OH,Midwest
+10620,"Albemarle, NC",0.0,NC,Southeast
+20260,"Duluth, MN-WI",34.0,MN,Midwest
+42860,"Seneca, SC",0.0,SC,Southeast
+24780,"Greenville, NC",24.0,NC,Southeast
+13460,"Bend-Redmond, OR",0.0,OR,West
+13780,"Binghamton, NY",109.0,NY,Northeast
+44700,"Stockton-Lodi, CA",0.0,CA,West
+42340,"Savannah, GA",34.0,GA,Southeast
+28180,"Kapaa, HI",0.0,HI,West
+37780,"Pecos, TX",0.0,TX,Southwest
+29380,"Lake City, FL",0.0,FL,Southeast
+21180,"Elkins, WV",0.0,WV,Southeast
+46020,"Truckee-Grass Valley, CA",0.0,CA,West
+34460,"Mount Sterling, KY",0.0,KY,Southeast
+47300,"Visalia-Porterville, CA",12.0,CA,West
+33780,"Monroe, MI",56.0,MI,Midwest
+24980,"Grenada, MS",0.0,MS,Southeast
+36100,"Ocala, FL",25.0,FL,Southeast
+27460,"Jamestown-Dunkirk-Fredonia, NY",0.0,NY,Northeast
+42940,"Sevierville, TN",0.0,TN,Southeast
+29020,"Kokomo, IN",36.0,IN,Midwest
+42980,"Seymour, IN",0.0,IN,Midwest
+19620,"Del Rio, TX",0.0,TX,Southwest
+34180,"Moses Lake, WA",0.0,WA,West
+23180,"Frankfort, KY",0.0,KY,Southeast
+34020,"Morgan City, LA",0.0,LA,Southeast
+25900,"Hilo, HI",0.0,HI,West
+35580,"New Ulm, MN",0.0,MN,Midwest
+35020,"Natchez, MS-LA",0.0,MS,Southeast
+17340,"Clearlake, CA",0.0,CA,West
+25720,"Heber, UT",0.0,UT,West
+27600,"Jefferson, GA",0.0,GA,Southeast
+14740,"Bremerton-Silverdale, WA",907.0,WA,West
+43220,"Shelton, WA",0.0,WA,West
+20980,"El Dorado, AR",0.0,AR,Southeast
+20300,"Dumas, TX",0.0,TX,Southwest
+29700,"Laredo, TX",4.0,TX,Southwest
+34340,"Mount Airy, NC",0.0,NC,Southeast
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2310.0,DC,Other
+16980,"Chicago-Naperville-Elgin, IL-IN-WI",0.0,IL,Midwest
+14540,"Bowling Green, KY",10.0,KY,Southeast
+19660,"Deltona-Daytona Beach-Ormond Beach, FL",62.0,FL,Southeast
+11640,"Arecibo, PR",0.0,PR,Other
+15540,"Burlington-South Burlington, VT",367.0,VT,Northeast
+37620,"Parkersburg-Vienna, WV",0.0,WV,Southeast
+40140,"Riverside-San Bernardino-Ontario, CA",484.0,CA,West
+21260,"Ellensburg, WA",0.0,WA,West
+11940,"Athens, TN",0.0,TN,Southeast
+28820,"Kinston, NC",0.0,NC,Southeast
+14180,"Blytheville, AR",0.0,AR,Southeast
+15820,"Campbellsville, KY",0.0,KY,Southeast
+26660,"Huntsville, TX",0.0,TX,Southwest
+37860,"Pensacola-Ferry Pass-Brent, FL",48.0,FL,Southeast
+39660,"Rapid City, SD",10.0,SD,Midwest
+25760,"Helena-West Helena, AR",0.0,AR,Southeast
+17300,"Clarksville, TN-KY",8.0,TN,Southeast
+24620,"Greeneville, TN",0.0,TN,Southeast
+15980,"Cape Coral-Fort Myers, FL",85.0,FL,Southeast
+21500,"Erie, PA",91.0,PA,Northeast
+37740,"Payson, AZ",0.0,AZ,Southwest
+29900,"Laurinburg, NC",0.0,NC,Southeast
+46660,"Valdosta, GA",5.0,GA,Southeast
+23420,"Fresno, CA",72.0,CA,West
+25060,"Gulfport-Biloxi-Pascagoula, MS",0.0,MS,Southeast
+13740,"Billings, MT",13.0,MT,West
+47220,"Vineland-Bridgeton, NJ",0.0,NJ,Northeast
+34820,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",0.0,SC,Southeast
+26380,"Houma-Thibodaux, LA",0.0,LA,Southeast
+25180,"Hagerstown-Martinsburg, MD-WV",18.0,MD,Other
+19460,"Decatur, AL",12.0,AL,Southeast
+46860,"Vernal, UT",0.0,UT,West
+33700,"Modesto, CA",36.0,CA,West
+25540,"Hartford-West Hartford-East Hartford, CT",845.0,CT,Northeast
+49180,"Winston-Salem, NC",147.0,NC,Southeast
+45900,"Traverse City, MI",0.0,MI,Midwest
+40180,"Riverton, WY",0.0,WY,West
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI",3419.0,MN,Midwest
+40340,"Rochester, MN",564.0,MN,Midwest
+30860,"Logan, UT-ID",89.0,UT,West
+29820,"Las Vegas-Henderson-Paradise, NV",0.0,NV,West
+10580,"Albany-Schenectady-Troy, NY",1090.0,NY,Northeast
+11820,"Astoria, OR",0.0,OR,West
+39580,"Raleigh, NC",0.0,NC,Southeast
+28900,"Klamath Falls, OR",0.0,OR,West
+28740,"Kingston, NY",77.0,NY,Northeast
+40060,"Richmond, VA",243.0,VA,Southeast
+31300,"Lumberton, NC",0.0,NC,Southeast
+39940,"Rexburg, ID",0.0,ID,West
+22520,"Florence-Muscle Shoals, AL",11.0,AL,Southeast
+25740,"Helena, MT",0.0,MT,West
+10420,"Akron, OH",373.0,OH,Midwest
+23060,"Fort Wayne, IN",141.0,IN,Midwest
+14010,"Bloomington, IL",0.0,IL,Midwest
+47820,"Washington, NC",0.0,NC,Southeast
+17860,"Columbia, MO",34.0,MO,Midwest
+28140,"Kansas City, MO-KS",816.0,MO,Midwest
+16700,"Charleston-North Charleston, SC",0.0,SC,Southeast
+27660,"Jennings, LA",0.0,LA,Southeast
+13500,"Bennettsville, SC",0.0,SC,Southeast
+10700,"Albertville, AL",0.0,AL,Southeast
+43500,"Silver City, NM",0.0,NM,Southwest
+35900,"North Wilkesboro, NC",0.0,NC,Southeast
+27620,"Jefferson City, MO",10.0,MO,Midwest
+46980,"Vicksburg, MS",0.0,MS,Southeast
+47240,"Vineyard Haven, MA",0.0,MA,Northeast
+32780,"Medford, OR",51.0,OR,West
+47380,"Waco, TX",17.0,TX,Southwest
+44780,"Sturgis, MI",0.0,MI,Midwest
+31930,"Marietta, OH",0.0,OH,Midwest
+37340,"Palm Bay-Melbourne-Titusville, FL",450.0,FL,Southeast
+15060,"Brookings, OR",0.0,OR,West
+39420,"Pullman, WA",0.0,WA,West
+24300,"Grand Junction, CO",21.0,CO,West
+34580,"Mount Vernon-Anacortes, WA",23.0,WA,West
+42100,"Santa Cruz-Watsonville, CA",678.0,CA,West
+33660,"Mobile, AL",16.0,AL,Southeast
+49340,"Worcester, MA-CT",0.0,MA,Northeast
+43460,"Sikeston, MO",0.0,MO,Midwest
+45460,"Terre Haute, IN",7.0,IN,Midwest
+11380,"Andrews, TX",0.0,TX,Southwest
+24330,"Grand Rapids, MN",0.0,MN,Midwest
+42460,"Scottsboro, AL",0.0,AL,Southeast
+36660,"Opelousas, LA",0.0,LA,Southeast
+49620,"York-Hanover, PA",114.0,PA,Northeast
+13380,"Bellingham, WA",56.0,WA,West
+36460,"Olean, NY",0.0,NY,Northeast
+15680,"California-Lexington Park, MD",0.0,MD,Other
+27340,"Jacksonville, NC",11.0,NC,Southeast
+32900,"Merced, CA",8.0,CA,West
+39340,"Provo-Orem, UT",396.0,UT,West
+18700,"Corvallis, OR",135.0,OR,West
+10380,"Aguadilla-Isabela, PR",0.0,PR,Other
+30700,"Lincoln, NE",72.0,NE,Midwest
+22300,"Findlay, OH",0.0,OH,Midwest
+38380,"Plainview, TX",0.0,TX,Southwest
+11100,"Amarillo, TX",18.0,TX,Southwest
+19820,"Detroit-Warren-Dearborn, MI",0.0,MI,Midwest
+12700,"Barnstable Town, MA",52.0,MA,Northeast
+46520,"Urban Honolulu, HI",0.0,HI,West
+31080,"Los Angeles-Long Beach-Anaheim, CA",0.0,CA,West
+31140,"Louisville/Jefferson County, KY-IN",300.0,KY,Southeast
+41860,"San Francisco-Oakland-Hayward, CA",0.0,CA,West
+18460,"Cornelia, GA",0.0,GA,Southeast
+35980,"Norwich-New London, CT",108.0,CT,Northeast
+30980,"Longview, TX",20.0,TX,Southwest
+41420,"Salem, OR",36.0,OR,West
+18580,"Corpus Christi, TX",45.0,TX,Southwest
+45340,"Taos, NM",0.0,NM,Southwest
+28700,"Kingsport-Bristol-Bristol, TN-VA",75.0,TN,Southeast
+34900,"Napa, CA",43.0,CA,West
+46540,"Utica-Rome, NY",40.0,NY,Northeast
+39820,"Redding, CA",16.0,CA,West
+12940,"Baton Rouge, LA",82.0,LA,Southeast
+14580,"Bozeman, MT",0.0,MT,West
+41500,"Salinas, CA",74.0,CA,West
+26500,"Huntingdon, PA",0.0,PA,Northeast
+27180,"Jackson, TN",11.0,TN,Southeast
+24020,"Glens Falls, NY",38.0,NY,Northeast
+10540,"Albany, OR",0.0,OR,West
+13620,"Berlin, NH-VT",0.0,NH,Northeast
+46380,"Ukiah, CA",0.0,CA,West
+35140,"Newberry, SC",0.0,SC,Southeast
+32180,"Marshall, MO",0.0,MO,Midwest
+36620,"Ontario, OR-ID",0.0,OR,West
+49020,"Winchester, VA-WV",21.0,VA,Southeast
+38240,"Pinehurst-Southern Pines, NC",0.0,NC,Southeast
+11140,"Americus, GA",0.0,GA,Southeast
+15580,"Butte-Silver Bow, MT",0.0,MT,West
+27140,"Jackson, MS",27.0,MS,Southeast
+16020,"Cape Girardeau, MO-IL",0.0,MO,Midwest
+17220,"Clarksburg, WV",0.0,WV,Southeast
+23140,"Frankfort, IN",0.0,IN,Midwest
+16660,"Charleston-Mattoon, IL",0.0,IL,Midwest
+42780,"Selinsgrove, PA",0.0,PA,Northeast
+37100,"Oxnard-Thousand Oaks-Ventura, CA",571.0,CA,West
+29540,"Lancaster, PA",148.0,PA,Northeast
+15180,"Brownsville-Harlingen, TX",13.0,TX,Southwest
+33740,"Monroe, LA",12.0,LA,Southeast
+41140,"St. Joseph, MO-KS",4.0,MO,Midwest
+35620,"New York-Newark-Jersey City, NY-NJ-PA",0.0,NY,Northeast
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",2357.0,PA,Northeast
+26420,"Houston-The Woodlands-Sugar Land, TX",0.0,TX,Southwest
+43300,"Sherman-Denison, TX",16.0,TX,Southwest
+16580,"Champaign-Urbana, IL",166.0,IL,Midwest
+16820,"Charlottesville, VA",92.0,VA,Southeast
+27580,"Jayuya, PR",0.0,PR,Other
+43940,"Spearfish, SD",0.0,SD,Midwest
+29780,"Las Vegas, NM",0.0,NM,Southwest
+45580,"Thomaston, GA",0.0,GA,Southeast
+29860,"Laurel, MS",0.0,MS,Southeast
+16860,"Chattanooga, TN-GA",45.0,TN,Southeast
+48660,"Wichita Falls, TX",10.0,TX,Southwest
+22900,"Fort Smith, AR-OK",17.0,AR,Southeast
+15260,"Brunswick, GA",5.0,GA,Southeast
+15500,"Burlington, NC",26.0,NC,Southeast
+28540,"Ketchikan, AK",0.0,AK,West
+21980,"Fallon, NV",0.0,NV,West
+32100,"Marquette, MI",0.0,MI,Midwest
+26540,"Huntington, IN",0.0,IN,Midwest
+30900,"Logansport, IN",0.0,IN,Midwest
+40260,"Roanoke Rapids, NC",0.0,NC,Southeast
+34300,"Mountain Home, ID",0.0,ID,West
+33340,"Milwaukee-Waukesha-West Allis, WI",689.0,WI,Midwest
+33300,"Milledgeville, GA",0.0,GA,Southeast
+26620,"Huntsville, AL",190.0,AL,Southeast
+12420,"Austin-Round Rock, TX",0.0,TX,Southwest
+45980,"Troy, AL",0.0,AL,Southeast
+49420,"Yakima, WA",7.0,WA,West
+36020,"Oak Harbor, WA",0.0,WA,West
+47180,"Vincennes, IN",0.0,IN,Midwest
+24420,"Grants Pass, OR",0.0,OR,West
+27020,"Iron Mountain, MI-WI",0.0,MI,Midwest
+31460,"Madera, CA",0.0,CA,West
+48900,"Wilmington, NC",54.0,NC,Southeast
+17420,"Cleveland, TN",4.0,TN,Southeast
+46620,"Uvalde, TX",0.0,TX,Southwest
+44300,"State College, PA",72.0,PA,Northeast
+33540,"Missoula, MT",19.0,MT,West
+23460,"Gadsden, AL",1.0,AL,Southeast
+26820,"Idaho Falls, ID",34.0,ID,West
+33060,"Miami, OK",0.0,OK,Southwest
+37060,"Oxford, MS",0.0,MS,Southeast
+45020,"Sweetwater, TX",0.0,TX,Southwest
+21380,"Emporia, KS",0.0,KS,Midwest
+28660,"Killeen-Temple, TX",0.0,TX,Southwest
+46780,"Van Wert, OH",0.0,OH,Midwest
+43320,"Show Low, AZ",0.0,AZ,Southwest
+18020,"Columbus, IN",91.0,IN,Midwest
+26300,"Hot Springs, AR",3.0,AR,Southeast
+46060,"Tucson, AZ",641.0,AZ,Southwest
+24380,"Grants, NM",0.0,NM,Southwest
+19380,"Dayton, OH",260.0,OH,Midwest
+40540,"Rock Springs, WY",0.0,WY,West
+38700,"Pontiac, IL",0.0,IL,Midwest
+48540,"Wheeling, WV-OH",6.0,WV,Southeast
+14700,"Branson, MO",0.0,MO,Midwest
+27300,"Jacksonville, IL",0.0,IL,Midwest
+49100,"Winona, MN",0.0,MN,Midwest
+23580,"Gainesville, GA",28.0,GA,Southeast
+42300,"Sault Ste. Marie, MI",0.0,MI,Midwest
+15660,"Calhoun, GA",0.0,GA,Southeast
+38060,"Phoenix-Mesa-Scottsdale, AZ",0.0,AZ,Southwest
+26140,"Homosassa Springs, FL",0.0,FL,Southeast
+32380,"Mason City, IA",0.0,IA,Midwest
+34780,"Muskogee, OK",0.0,OK,Southwest
+44180,"Springfield, MO",35.0,MO,Midwest
+48580,"Whitewater-Elkhorn, WI",0.0,WI,Midwest
+30060,"Lebanon, MO",0.0,MO,Midwest
+22820,"Fort Morgan, CO",0.0,CO,West
+37660,"Parsons, KS",0.0,KS,Midwest
+33940,"Montrose, CO",0.0,CO,West
+38460,"Plattsburgh, NY",0.0,NY,Northeast
+11860,"Atchison, KS",0.0,KS,Midwest
+10740,"Albuquerque, NM",294.0,NM,Southwest
+24580,"Green Bay, WI",42.0,WI,Midwest
+47020,"Victoria, TX",3.0,TX,Southwest
+40380,"Rochester, NY",1217.0,NY,Northeast
+41760,"Sandpoint, ID",0.0,ID,West
+28580,"Key West, FL",0.0,FL,Southeast
+41100,"St. George, UT",25.0,UT,West
+19220,"Danville, KY",0.0,KY,Southeast
+13700,"Big Spring, TX",0.0,TX,Southwest
+15420,"Burley, ID",0.0,ID,West
+13420,"Bemidji, MN",0.0,MN,Midwest
+14100,"Bloomsburg-Berwick, PA",0.0,PA,Northeast
+11620,"Ardmore, OK",0.0,OK,Southwest
+31900,"Mansfield, OH",12.0,OH,Midwest
+46500,"Urbana, OH",0.0,OH,Midwest
+40080,"Richmond-Berea, KY",0.0,KY,Southeast
+27940,"Juneau, AK",0.0,AK,West
+38840,"Port Clinton, OH",0.0,OH,Midwest
+27920,"Junction City, KS",0.0,KS,Midwest
+31500,"Madison, IN",0.0,IN,Midwest
+21140,"Elkhart-Goshen, IN",47.0,IN,Midwest
+35820,"North Platte, NE",0.0,NE,Midwest
+14380,"Boone, NC",0.0,NC,Southeast
+48060,"Watertown-Fort Drum, NY",0.0,NY,Northeast
+22620,"Forrest City, AR",0.0,AR,Southeast
+40760,"Ruidoso, NM",0.0,NM,Southwest
+22260,"Fergus Falls, MN",0.0,MN,Midwest
+46180,"Tupelo, MS",0.0,MS,Southeast
+22060,"Faribault-Northfield, MN",0.0,MN,Midwest
+43020,"Shawano, WI",0.0,WI,Midwest
+17260,"Clarksdale, MS",0.0,MS,Southeast
+41460,"Salina, KS",0.0,KS,Midwest
+11900,"Athens, OH",0.0,OH,Midwest
+43700,"Somerset, KY",0.0,KY,Southeast
+19140,"Dalton, GA",9.0,GA,Southeast
+11540,"Appleton, WI",108.0,WI,Midwest
+48980,"Wilson, NC",0.0,NC,Southeast
+16220,"Casper, WY",5.0,WY,West
+31980,"Marion, IN",0.0,IN,Midwest
+16060,"Carbondale-Marion, IL",0.0,IL,Midwest
+31620,"Magnolia, AR",0.0,AR,Southeast
+16180,"Carson City, NV",5.0,NV,West
+23300,"Freeport, IL",0.0,IL,Midwest
+38620,"Ponca City, OK",0.0,OK,Southwest
+14020,"Bloomington, IN",129.0,IN,Midwest
+37080,"Oxford, NC",0.0,NC,Southeast
+23700,"Gallup, NM",0.0,NM,Southwest
+40980,"Saginaw, MI",0.0,MI,Midwest
+29420,"Lake Havasu City-Kingman, AZ",11.0,AZ,Southwest
+28020,"Kalamazoo-Portage, MI",100.0,MI,Midwest
+20820,"Effingham, IL",0.0,IL,Midwest
+27900,"Joplin, MO",25.0,MO,Midwest
+19740,"Denver-Aurora-Lakewood, CO",0.0,CO,West
+45380,"Taylorville, IL",0.0,IL,Midwest
+36830,"Othello, WA",0.0,WA,West
+32620,"McComb, MS",0.0,MS,Southeast
+12300,"Augusta-Waterville, ME",0.0,ME,Northeast
+32500,"Maysville, KY",0.0,KY,Southeast
+22420,"Flint, MI",120.0,MI,Midwest
+47700,"Warsaw, IN",0.0,IN,Midwest
+29300,"LaGrange, GA",0.0,GA,Southeast
+45740,"Toccoa, GA",0.0,GA,Southeast
+11180,"Ames, IA",84.0,IA,Midwest
+12380,"Austin, MN",0.0,MN,Midwest
+34500,"Mount Vernon, IL",0.0,IL,Midwest
+40740,"Roswell, NM",0.0,NM,Southwest
+23240,"Fredericksburg, TX",0.0,TX,Southwest
+48100,"Wauchula, FL",0.0,FL,Southeast
+22780,"Fort Leonard Wood, MO",0.0,MO,Midwest
+26960,"Ionia, MI",0.0,MI,Midwest
+10760,"Alexander City, AL",0.0,AL,Southeast
+38260,"Pittsburg, KS",0.0,KS,Midwest
+17740,"Coldwater, MI",0.0,MI,Midwest
+42740,"Sedalia, MO",0.0,MO,Midwest
+38580,"Point Pleasant, WV-OH",0.0,WV,Southeast
+16260,"Cedar City, UT",0.0,UT,West
+37940,"Peru, IN",0.0,IN,Midwest
+48820,"Willmar, MN",0.0,MN,Midwest
+40820,"Ruston, LA",0.0,LA,Southeast
+11680,"Arkansas City-Winfield, KS",0.0,KS,Midwest
+15020,"Brookhaven, MS",0.0,MS,Southeast
+36300,"Ogdensburg-Massena, NY",0.0,NY,Northeast
+13340,"Bellefontaine, OH",0.0,OH,Midwest
+39380,"Pueblo, CO",18.0,CO,West
+17820,"Colorado Springs, CO",204.0,CO,West
+45660,"Tiffin, OH",0.0,OH,Midwest
+42680,"Sebastian-Vero Beach, FL",38.0,FL,Southeast
+34740,"Muskegon, MI",0.0,MI,Midwest
+41400,"Salem, OH",0.0,OH,Midwest
+20460,"Durant, OK",0.0,OK,Southwest
+44540,"Sterling, CO",0.0,CO,West
+17060,"Chillicothe, OH",0.0,OH,Midwest
+32340,"Maryville, MO",0.0,MO,Midwest
+13020,"Bay City, MI",22.0,MI,Midwest
+43660,"Snyder, TX",0.0,TX,Southwest
+36220,"Odessa, TX",16.0,TX,Southwest
+33420,"Mineral Wells, TX",0.0,TX,Southwest
+47620,"Warren, PA",0.0,PA,Northeast
+38540,"Pocatello, ID",4.0,ID,West
+23900,"Gettysburg, PA",0.0,PA,Northeast
+36780,"Oshkosh-Neenah, WI",98.0,WI,Midwest
+32660,"McMinnville, TN",0.0,TN,Southeast
+28260,"Kearney, NE",0.0,NE,Midwest
+36840,"Ottawa, KS",0.0,KS,Midwest
+26900,"Indianapolis-Carmel-Anderson, IN",0.0,IN,Midwest
+24700,"Greensburg, IN",0.0,IN,Midwest
+25620,"Hattiesburg, MS",9.0,MS,Southeast
+20780,"Edwards, CO",0.0,CO,West
+15900,"Canton, IL",0.0,IL,Midwest
+31180,"Lubbock, TX",25.0,TX,Southwest
+29060,"Laconia, NH",0.0,NH,Northeast
+21420,"Enid, OK",0.0,OK,Southwest
+32420,"Mayagüez, PR",0.0,PR,Other
+19780,"Des Moines-West Des Moines, IA",218.0,IA,Midwest
+49380,"Worthington, MN",0.0,MN,Midwest
+39020,"Portsmouth, OH",0.0,OH,Midwest
+44420,"Staunton-Waynesboro, VA",0.0,VA,Southeast
+42200,"Santa Maria-Santa Barbara, CA",0.0,CA,West
+18780,"Craig, CO",0.0,CO,West
+19540,"Decatur, IN",0.0,IN,Midwest
+25780,"Henderson, NC",0.0,NC,Southeast
+13260,"Bedford, IN",0.0,IN,Midwest
+21840,"Fairfield, IA",0.0,IA,Midwest
+18420,"Corinth, MS",0.0,MS,Southeast
+19500,"Decatur, IL",17.0,IL,Midwest
+25580,"Hastings, NE",0.0,NE,Midwest
+46740,"Valley, AL",0.0,AL,Southeast
+19860,"Dickinson, ND",0.0,ND,Midwest
+37900,"Peoria, IL",410.0,IL,Midwest
+42180,"Santa Isabel, PR",0.0,PR,Other
+27260,"Jacksonville, FL",202.0,FL,Southeast
+28300,"Keene, NH",0.0,NH,Northeast
+43100,"Sheboygan, WI",60.0,WI,Midwest
+12120,"Atmore, AL",0.0,AL,Southeast
+31680,"Malvern, AR",0.0,AR,Southeast
+44740,"Storm Lake, IA",0.0,IA,Midwest
+35220,"New Castle, IN",0.0,IN,Midwest
+16300,"Cedar Rapids, IA",193.0,IA,Midwest
+12220,"Auburn-Opelika, AL",25.0,AL,Southeast
+18820,"Crawfordsville, IN",0.0,IN,Midwest
+10460,"Alamogordo, NM",0.0,NM,Southwest
+45220,"Tallahassee, FL",52.0,FL,Southeast
+39260,"Prineville, OR",0.0,OR,West
+13900,"Bismarck, ND",4.0,ND,Midwest
+16340,"Cedartown, GA",0.0,GA,Southeast
+17660,"Coeur d'Alene, ID",35.0,ID,West
+30780,"Little Rock-North Little Rock-Conway, AR",61.0,AR,Southeast
+45500,"Texarkana, TX-AR",0.0,TX,Southwest
+38860,"Portland-South Portland, ME",0.0,ME,Northeast
+44660,"Stillwater, OK",0.0,OK,Southwest
+18740,"Coshocton, OH",0.0,OH,Midwest
+10860,"Alice, TX",0.0,TX,Southwest
+49820,"Zapata, TX",0.0,TX,Southwest
+16380,"Celina, OH",0.0,OH,Midwest
+10300,"Adrian, MI",0.0,MI,Midwest
+30620,"Lima, OH",5.0,OH,Midwest
+35260,"New Castle, PA",0.0,PA,Northeast
+11780,"Ashtabula, OH",0.0,OH,Midwest
+27160,"Jackson, OH",0.0,OH,Midwest
+49460,"Yankton, SD",0.0,SD,Midwest
+27500,"Janesville-Beloit, WI",0.0,WI,Midwest
+37020,"Owosso, MI",0.0,MI,Midwest
+28060,"Kalispell, MT",0.0,MT,West
+35660,"Niles-Benton Harbor, MI",137.0,MI,Midwest
+15140,"Brownsville, TN",0.0,TN,Southeast
+44500,"Stephenville, TX",0.0,TX,Southwest
+15340,"Bucyrus, OH",0.0,OH,Midwest
+19340,"Davenport-Moline-Rock Island, IA-IL",76.0,IA,Midwest
+22220,"Fayetteville-Springdale-Rogers, AR-MO",80.0,AR,Southeast
+27220,"Jackson, WY-ID",0.0,WY,West
+27100,"Jackson, MI",39.0,MI,Midwest
+45000,"Susanville, CA",0.0,CA,West
+49780,"Zanesville, OH",0.0,OH,Midwest
+39500,"Quincy, IL-MO",0.0,IL,Midwest
+49300,"Wooster, OH",0.0,OH,Midwest
+15740,"Cambridge, OH",0.0,OH,Midwest
+29980,"Lawrenceburg, TN",0.0,TN,Southeast
+19940,"Dixon, IL",0.0,IL,Midwest
+20500,"Durham-Chapel Hill, NC",607.0,NC,Southeast
+10980,"Alpena, MI",0.0,MI,Midwest
+32580,"McAllen-Edinburg-Mission, TX",14.0,TX,Southwest
+30020,"Lawton, OK",4.0,OK,Southwest
+20220,"Dubuque, IA",61.0,IA,Midwest
+38940,"Port St. Lucie, FL",93.0,FL,Southeast
+16100,"Carlsbad-Artesia, NM",0.0,NM,Southwest
+23820,"Gardnerville Ranchos, NV",0.0,NV,West
+27860,"Jonesboro, AR",25.0,AR,Southeast
+44620,"Stevens Point, WI",0.0,WI,Midwest
+22540,"Fond du Lac, WI",25.0,WI,Midwest
+43780,"South Bend-Mishawaka, IN-MI",110.0,IN,Midwest
+34260,"Mountain Home, AR",0.0,AR,Southeast
+11220,"Amsterdam, NY",0.0,NY,Northeast
+25880,"Hillsdale, MI",0.0,MI,Midwest
+29740,"Las Cruces, NM",8.0,NM,Southwest
+18380,"Cordele, GA",0.0,GA,Southeast
+43420,"Sierra Vista-Douglas, AZ",0.0,AZ,Southwest
+37800,"Pella, IA",0.0,IA,Midwest
+28100,"Kankakee, IL",0.0,IL,Midwest
+18100,"Columbus, NE",0.0,NE,Midwest
+33620,"Moberly, MO",0.0,MO,Midwest
+44020,"Spirit Lake, IA",0.0,IA,Midwest
+38340,"Pittsfield, MA",36.0,MA,Northeast
+39060,"Pottsville, PA",0.0,PA,Northeast
+39740,"Reading, PA",61.0,PA,Northeast
+45540,"The Villages, FL",0.0,FL,Southeast
+39900,"Reno, NV",0.0,NV,West
+10180,"Abilene, TX",8.0,TX,Southwest
+40300,"Rochelle, IL",0.0,IL,Midwest
+21120,"Elk City, OK",0.0,OK,Southwest
+16940,"Cheyenne, WY",18.0,WY,West
+45140,"Tahlequah, OK",0.0,OK,Southwest
+32260,"Marshalltown, IA",0.0,IA,Midwest
+18180,"Concord, NH",0.0,NH,Northeast
+23940,"Gillette, WY",0.0,WY,West
+17580,"Clovis, NM",0.0,NM,Southwest
+24260,"Grand Island, NE",0.0,NE,Midwest
+47980,"Watertown, SD",0.0,SD,Midwest
+36820,"Oskaloosa, IA",0.0,IA,Midwest
+29940,"Lawrence, KS",52.0,KS,Midwest
+27780,"Johnstown, PA",7.0,PA,Northeast
+11740,"Ashland, OH",0.0,OH,Midwest
+13100,"Beatrice, NE",0.0,NE,Midwest
+35420,"New Philadelphia-Dover, OH",0.0,OH,Midwest
+19980,"Dodge City, KS",0.0,KS,Midwest
+26980,"Iowa City, IA",85.0,IA,Midwest
+44260,"Starkville, MS",0.0,MS,Southeast
+48220,"Weatherford, OK",0.0,OK,Southwest
+32020,"Marion, OH",0.0,OH,Midwest
+10220,"Ada, OK",0.0,OK,Southwest
+40780,"Russellville, AR",0.0,AR,Southeast
+40620,"Rolla, MO",0.0,MO,Midwest
+48140,"Wausau, WI",11.0,WI,Midwest
+15620,"Cadillac, MI",0.0,MI,Midwest
+22280,"Fernley, NV",0.0,NV,West
+47420,"Wahpeton, ND-MN",0.0,ND,Midwest
+18660,"Cortland, NY",0.0,NY,Northeast
+21300,"Elmira, NY",75.0,NY,Northeast
+26020,"Hobbs, NM",0.0,NM,Southwest
+49220,"Wisconsin Rapids-Marshfield, WI",0.0,WI,Midwest
+13180,"Beaver Dam, WI",0.0,WI,Midwest
+37120,"Ozark, AL",0.0,AL,Southeast
+19180,"Danville, IL",3.0,IL,Midwest
+36900,"Ottumwa, IA",0.0,IA,Midwest
+34620,"Muncie, IN",7.0,IN,Midwest
+15220,"Brownwood, TX",0.0,TX,Southwest
+39540,"Racine, WI",97.0,WI,Midwest
+32540,"McAlester, OK",0.0,OK,Southwest
+38820,"Port Angeles, WA",0.0,WA,West
+30420,"Lexington, NE",0.0,NE,Midwest
+25460,"Harrison, AR",0.0,AR,Southeast
+33020,"Mexico, MO",0.0,MO,Midwest
+25820,"Hereford, TX",0.0,TX,Southwest
+15100,"Brookings, SD",0.0,SD,Midwest
+34380,"Mount Pleasant, MI",0.0,MI,Midwest
+10660,"Albert Lea, MN",0.0,MN,Midwest
+32700,"McPherson, KS",0.0,KS,Midwest
+37220,"Pahrump, NV",0.0,NV,West
+33580,"Mitchell, SD",0.0,SD,Midwest
+31220,"Ludington, MI",0.0,MI,Midwest
+26700,"Huron, SD",0.0,SD,Midwest
+10500,"Albany, GA",28.0,GA,Southeast
+12140,"Auburn, IN",0.0,IN,Midwest
+23380,"Fremont, OH",0.0,OH,Midwest
+24140,"Goldsboro, NC",2.0,NC,Southeast
+47540,"Wapakoneta, OH",0.0,OH,Midwest
+12860,"Batavia, NY",0.0,NY,Northeast
+28340,"Kendallville, IN",0.0,IN,Midwest
+35860,"North Vernon, IN",0.0,IN,Midwest
+20060,"Douglas, GA",0.0,GA,Southeast
+14340,"Boone, IA",0.0,IA,Midwest
+34660,"Murray, KY",0.0,KY,Southeast
+33980,"Morehead City, NC",0.0,NC,Southeast
+18980,"Cullman, AL",0.0,AL,Southeast
+15460,"Burlington, IA-IL",0.0,IA,Midwest
+48460,"West Plains, MO",0.0,MO,Midwest
+30660,"Lincoln, IL",0.0,IL,Midwest
+22340,"Fitzgerald, GA",0.0,GA,Southeast
+11500,"Anniston-Oxford-Jacksonville, AL",0.0,AL,Southeast
+30380,"Lewistown, PA",0.0,PA,Northeast
+13720,"Big Stone Gap, VA",0.0,VA,Southeast
+21780,"Evansville, IN-KY",118.0,IN,Midwest
+17200,"Claremont-Lebanon, NH-VT",0.0,NH,Northeast
+21220,"Elko, NV",0.0,NV,West
+23540,"Gainesville, FL",187.0,FL,Southeast
+46220,"Tuscaloosa, AL",25.0,AL,Southeast
+26340,"Houghton, MI",0.0,MI,Midwest
+25940,"Hilton Head Island-Bluffton-Beaufort, SC",0.0,SC,Southeast
+41540,"Salisbury, MD-DE",0.0,MD,Other
+34940,"Naples-Immokalee-Marco Island, FL",0.0,FL,Southeast
+42420,"Scottsbluff, NE",0.0,NE,Midwest
+37500,"Paragould, AR",0.0,AR,Southeast
+10940,"Alma, MI",0.0,MI,Midwest
+13940,"Blackfoot, ID",0.0,ID,West
+41260,"St. Marys, PA",0.0,PA,Northeast
+37420,"Pampa, TX",0.0,TX,Southwest
+46820,"Vermillion, SD",0.0,SD,Midwest
+29460,"Lakeland-Winter Haven, FL",40.0,FL,Southeast
+19700,"Deming, NM",0.0,NM,Southwest
+46340,"Tyler, TX",22.0,TX,Southwest
+31860,"Mankato-North Mankato, MN",41.0,MN,Midwest
+28380,"Kennett, MO",0.0,MO,Midwest
+18880,"Crestview-Fort Walton Beach-Destin, FL",18.0,FL,Southeast
+36980,"Owensboro, KY",8.0,KY,Southeast
+41220,"St. Marys, GA",0.0,GA,Southeast
+44460,"Steamboat Springs, CO",0.0,CO,West
+27980,"Kahului-Wailuku-Lahaina, HI",0.0,HI,West
+16540,"Chambersburg-Waynesboro, PA",0.0,PA,Northeast
+20420,"Durango, CO",0.0,CO,West
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",220.0,TN,Southeast
+21020,"Elizabeth City, NC",0.0,NC,Southeast
+13820,"Birmingham-Hoover, AL",112.0,AL,Southeast
+44980,"Sunbury, PA",0.0,PA,Northeast
+29500,"Lamesa, TX",0.0,TX,Southwest
+38180,"Pierre, SD",0.0,SD,Midwest
+38300,"Pittsburgh, PA",895.0,PA,Northeast
+36740,"Orlando-Kissimmee-Sanford, FL",446.0,FL,Southeast
+24940,"Greenwood, SC",0.0,SC,Southeast
+15860,"Cañon City, CO",0.0,CO,West
+20900,"El Campo, TX",0.0,TX,Southwest
+43140,"Shelby, NC",0.0,NC,Southeast
+47940,"Waterloo-Cedar Falls, IA",49.0,IA,Midwest
+45700,"Tifton, GA",0.0,GA,Southeast
+23620,"Gainesville, TX",0.0,TX,Southwest
+32860,"Menomonie, WI",0.0,WI,Midwest
+12580,"Baltimore-Columbia-Towson, MD",0.0,MD,Other
+33140,"Michigan City-La Porte, IN",12.0,IN,Midwest
+26220,"Hood River, OR",0.0,OR,West
+30820,"Lock Haven, PA",0.0,PA,Northeast
+46700,"Vallejo-Fairfield, CA",67.0,CA,West
+35300,"New Haven-Milford, CT",457.0,CT,Northeast
+48700,"Williamsport, PA",12.0,PA,Northeast
+34140,"Moscow, ID",0.0,ID,West
+12460,"Bainbridge, GA",0.0,GA,Southeast
+28500,"Kerrville, TX",0.0,TX,Southwest
+40660,"Rome, GA",8.0,GA,Southeast
+35440,"Newport, OR",0.0,OR,West
+35940,"Norwalk, OH",0.0,OH,Midwest
+36940,"Owatonna, MN",0.0,MN,Midwest
+30460,"Lexington-Fayette, KY",181.0,KY,Southeast
+24820,"Greenville, OH",0.0,OH,Midwest
+10100,"Aberdeen, SD",0.0,SD,Midwest
+34540,"Mount Vernon, OH",0.0,OH,Midwest
+18220,"Connersville, IN",0.0,IN,Midwest
+30140,"Lebanon, PA",18.0,PA,Northeast
+25260,"Hanford-Corcoran, CA",0.0,CA,West
+39460,"Punta Gorda, FL",22.0,FL,Southeast
+24660,"Greensboro-High Point, NC",159.0,NC,Southeast
+22100,"Farmington, MO",0.0,MO,Midwest
+24100,"Gloversville, NY",0.0,NY,Northeast
+32740,"Meadville, PA",0.0,PA,Northeast
+21460,"Enterprise, AL",0.0,AL,Southeast
+26780,"Hutchinson, MN",0.0,MN,Midwest
+48940,"Wilmington, OH",0.0,OH,Midwest
+35500,"Newton, IA",0.0,IA,Midwest
+48020,"Watertown-Fort Atkinson, WI",0.0,WI,Midwest
+26090,"Holland, MI",0.0,MI,Midwest
+31660,"Malone, NY",0.0,NY,Northeast
+33500,"Minot, ND",0.0,ND,Midwest
+20740,"Eau Claire, WI",43.0,WI,Midwest
+25700,"Hays, KS",0.0,KS,Midwest
+39860,"Red Wing, MN",0.0,MN,Midwest
+11460,"Ann Arbor, MI",785.0,MI,Midwest
+22800,"Fort Madison-Keokuk, IA-IL-MO",0.0,IA,Midwest
+25840,"Hermiston-Pendleton, OR",0.0,OR,West
+31060,"Los Alamos, NM",0.0,NM,Southwest
+33220,"Midland, MI",0.0,MI,Midwest
+49660,"Youngstown-Warren-Boardman, OH-PA",66.0,OH,Midwest
+47660,"Warrensburg, MO",0.0,MO,Midwest
+30260,"Lewisburg, PA",0.0,PA,Northeast
+36340,"Oil City, PA",0.0,PA,Northeast
+22020,"Fargo, ND-MN",75.0,ND,Midwest
+11580,"Arcadia, FL",0.0,FL,Southeast
+40860,"Rutland, VT",0.0,VT,Northeast
+14300,"Bonham, TX",0.0,TX,Southwest
+26740,"Hutchinson, KS",0.0,KS,Midwest
+30220,"Levelland, TX",0.0,TX,Southwest
+22840,"Fort Payne, AL",0.0,AL,Southeast
+12060,"Atlanta-Sandy Springs-Roswell, GA",0.0,GA,Southeast
+12180,"Auburn, NY",0.0,NY,Northeast
+15940,"Canton-Massillon, OH",121.0,OH,Midwest
+42140,"Santa Fe, NM",50.0,NM,Southwest
+45620,"Thomasville, GA",0.0,GA,Southeast
+44900,"Summerville, GA",0.0,GA,Southeast
+29620,"Lansing-East Lansing, MI",93.0,MI,Midwest
+17500,"Clewiston, FL",0.0,FL,Southeast
+32940,"Meridian, MS",0.0,MS,Southeast
+25860,"Hickory-Lenoir-Morganton, NC",106.0,NC,Southeast
+42380,"Sayre, PA",0.0,PA,Northeast
+26460,"Hudson, NY",0.0,NY,Northeast
+35700,"Nogales, AZ",0.0,AZ,Southwest
+26580,"Huntington-Ashland, WV-KY-OH",14.0,WV,Southeast
+49080,"Winnemucca, NV",0.0,NV,West
+30580,"Liberal, KS",0.0,KS,Midwest
+10260,"Adjuntas, PR",0.0,PR,Other
+17620,"Coamo, PR",0.0,PR,Other
+17640,"Coco, PR",0.0,PR,Other
+27420,"Jamestown, ND",0.0,ND,Midwest
+23980,"Glasgow, KY",0.0,KY,Southeast
+20940,"El Centro, CA",3.0,CA,West
+32140,"Marshall, MN",0.0,MN,Midwest
+29200,"Lafayette-West Lafayette, IN",0.0,IN,Midwest
+47340,"Wabash, IN",0.0,IN,Midwest
+38500,"Plymouth, IN",0.0,IN,Midwest
+26940,"Indianola, MS",0.0,MS,Southeast
+22700,"Fort Dodge, IA",0.0,IA,Midwest
+32300,"Martinsville, VA",0.0,VA,Southeast
+14720,"Breckenridge, CO",0.0,CO,West
+12740,"Barre, VT",0.0,VT,Northeast
+14620,"Bradford, PA",0.0,PA,Northeast
+35840,"North Port-Sarasota-Bradenton, FL",0.0,FL,Southeast
+23780,"Garden City, KS",0.0,KS,Midwest
+17700,"Coffeyville, KS",0.0,KS,Midwest
+23660,"Galesburg, IL",0.0,IL,Midwest
+24460,"Great Bend, KS",0.0,KS,Midwest
+48500,"West Point, MS",0.0,MS,Southeast
+39700,"Raymondville, TX",0.0,TX,Southwest
+49260,"Woodward, OK",0.0,OK,Southwest
+44580,"Sterling, IL",0.0,IL,Midwest
+31700,"Manchester-Nashua, NH",376.0,NH,Northeast
+25100,"Guymon, OK",0.0,OK,Southwest
+35740,"Norfolk, NE",0.0,NE,Midwest
+32460,"Mayfield, KY",0.0,KY,Southeast
+34700,"Muscatine, IA",0.0,IA,Midwest
+31820,"Manitowoc, WI",0.0,WI,Midwest
+11020,"Altoona, PA",12.0,PA,Northeast
+39980,"Richmond, IN",0.0,IN,Midwest
+16460,"Centralia, IL",0.0,IL,Midwest
+27060,"Ithaca, NY",140.0,NY,Northeast
+44220,"Springfield, OH",16.0,OH,Midwest
+40420,"Rockford, IL",155.0,IL,Midwest
+41660,"San Angelo, TX",3.0,TX,Southwest
+23340,"Fremont, NE",0.0,NE,Midwest
+29660,"Laramie, WY",0.0,WY,West
+43980,"Spencer, IA",0.0,IA,Midwest
+13540,"Bennington, VT",0.0,VT,Northeast
+12540,"Bakersfield, CA",0.0,CA,West
+42900,"Seneca Falls, NY",0.0,NY,Northeast
+19580,"Defiance, OH",0.0,OH,Midwest
+32980,"Merrill, WI",0.0,WI,Midwest
+20340,"Duncan, OK",0.0,OK,Southwest
+21740,"Evanston, WY",0.0,WY,West
+30340,"Lewiston-Auburn, ME",6.0,ME,Northeast
+18300,"Coos Bay, OR",0.0,OR,West
+18500,"Corning, NY",0.0,NY,Northeast
+11420,"Angola, IN",0.0,IN,Midwest
+46900,"Vernon, TX",0.0,TX,Southwest
+31380,"Macomb, IL",0.0,IL,Midwest
+21860,"Fairmont, MN",0.0,MN,Midwest
+36860,"Ottawa-Peru, IL",0.0,IL,Midwest
+16140,"Carroll, IA",0.0,IA,Midwest
+43380,"Sidney, OH",0.0,OH,Midwest
+12980,"Battle Creek, MI",27.0,MI,Midwest
+13660,"Big Rapids, MI",0.0,MI,Midwest
+10820,"Alexandria, MN",0.0,MN,Midwest
+11700,"Asheville, NC",57.0,NC,Southeast
+45780,"Toledo, OH",146.0,OH,Midwest
+47920,"Washington Court House, OH",0.0,OH,Midwest
+14460,"Boston-Cambridge-Newton, MA-NH",0.0,MA,Northeast
+33260,"Midland, TX",33.0,TX,Southwest
+34220,"Moultrie, GA",0.0,GA,Southeast
+12620,"Bangor, ME",18.0,ME,Northeast
+24540,"Greeley, CO",280.0,CO,West
+48260,"Weirton-Steubenville, WV-OH",0.0,WV,Southeast
+25300,"Hannibal, MO",0.0,MO,Midwest
+12780,"Bartlesville, OK",0.0,OK,Southwest
+20580,"Eagle Pass, TX",0.0,TX,Southwest
+37540,"Paris, TN",0.0,TN,Southeast
+18860,"Crescent City, CA",0.0,CA,West
+20180,"DuBois, PA",0.0,PA,Northeast
+45820,"Topeka, KS",8.0,KS,Midwest
+40100,"Rio Grande City, TX",0.0,TX,Southwest
+13300,"Beeville, TX",0.0,TX,Southwest
+40580,"Rocky Mount, NC",7.0,NC,Southeast
+45300,"Tampa-St. Petersburg-Clearwater, FL",624.0,FL,Southeast
+42620,"Searcy, AR",0.0,AR,Southeast
+32000,"Marion, NC",0.0,NC,Southeast
+10900,"Allentown-Bethlehem-Easton, PA-NJ",320.0,PA,Northeast
+10780,"Alexandria, LA",7.0,LA,Southeast
+12020,"Athens-Clarke County, GA",49.0,GA,Southeast
+14660,"Brainerd, MN",0.0,MN,Midwest
+44920,"Summit Park, UT",0.0,UT,West
+20100,"Dover, DE",8.0,DE,Other
+42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",0.0,CA,West
+17540,"Clinton, IA",0.0,IA,Midwest
+49740,"Yuma, AZ",5.0,AZ,Southwest
+36380,"Okeechobee, FL",0.0,FL,Southeast
+20020,"Dothan, AL",4.0,AL,Southeast
+14860,"Bridgeport-Stamford-Norwalk, CT",636.0,CT,Northeast
+13060,"Bay City, TX",0.0,TX,Southwest
+48300,"Wenatchee, WA",0.0,WA,West
+35460,"Newport, TN",0.0,TN,Southeast
+45860,"Torrington, CT",0.0,CT,Northeast
+21900,"Fairmont, WV",0.0,WV,Southeast

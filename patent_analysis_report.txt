@@ -1,0 +1,80 @@
+
+=== U.S. PATENT DISTRIBUTION ANALYSIS (2015) ===
+
+OVERVIEW:
+---------
+This analysis examines the geographic distribution of patents across U.S. Metropolitan
+Statistical Areas (MSAs) for the year 2015.
+
+KEY FINDINGS:
+
+1. OVERALL STATISTICS:
+   - Total Patents Analyzed: 66,097
+   - Number of MSAs with Data: 287
+   - Average Patents per MSA: 230
+   - Median Patents per MSA: 40
+
+2. TOP 5 METROPOLITAN AREAS:
+
+   1. San Jose-Sunnyvale-Santa Clara, CA
+      Patents: 14,618 (22.1% of total)
+
+   2. Seattle-Tacoma-Bellevue, WA
+      Patents: 4,739 (7.2% of total)
+
+   3. Minneapolis-St. Paul-Bloomington, MN-WI
+      Patents: 3,419 (5.2% of total)
+
+   4. Dallas-Fort Worth-Arlington, TX
+      Patents: 3,026 (4.6% of total)
+
+   5. Philadelphia-Camden-Wilmington, PA-NJ-DE-MD
+      Patents: 2,357 (3.6% of total)
+
+3. REGIONAL DISTRIBUTION:
+
+   West:
+      Total: 27,699 (41.9%)
+      Average per MSA: 188
+      Number of MSAs: 147
+
+   Midwest:
+      Total: 13,340 (20.2%)
+      Average per MSA: 47
+      Number of MSAs: 286
+
+   Northeast:
+      Total: 10,318 (15.6%)
+      Average per MSA: 112
+      Number of MSAs: 92
+
+   Southeast:
+      Total: 7,122 (10.8%)
+      Average per MSA: 26
+      Number of MSAs: 279
+
+   Southwest:
+      Total: 5,282 (8.0%)
+      Average per MSA: 44
+      Number of MSAs: 120
+
+   Other:
+      Total: 2,336 (3.5%)
+      Average per MSA: 111
+      Number of MSAs: 21
+
+4. TEMPORAL TRENDS (2000-2015):
+   - Overall change: 26,772 patents
+   - Average % change: 51.8%
+   - MSAs with growth: 181
+   - MSAs with decline: 98
+
+OBSERVATIONS:
+-------------
+
+1. Patent Concentration: The top 5 MSAs account for 42.6% of all patents,
+   indicating significant geographic concentration of innovation.
+
+2. Regional Patterns: The West region leads with 27,699 patents, representing 41.9% of the national total.
+
+3. Growth Patterns: Overall, patent activity increased by 26,772 patents (68.1%) from 2000 to 2015.

@@ -1,0 +1,7 @@
+Patent mapping completed successfully.
+Top 5 MSAs in 2015:
+- San Jose-Sunnyvale-Santa Clara, CA: 14618.0 patents
+- Seattle-Tacoma-Bellevue, WA: 4739.0 patents
+- Minneapolis-St. Paul-Bloomington, MN-WI: 3419.0 patents
+- Dallas-Fort Worth-Arlington, TX: 3026.0 patents
+- Philadelphia-Camden-Wilmington, PA-NJ-DE-MD: 2357.0 patents
